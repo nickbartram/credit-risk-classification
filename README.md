@@ -19,7 +19,7 @@ The results are shown in a confusion matrix, as well as a classification report 
 
 ## Conclusion
 
-Overall this was a fairly accurate predictive model. The logistic regression classified the loans reasonably well. It would be a good model for predicting healthy loans. It would perform slightly worse for high-risk loans. With an f1 score of 89%, most high-risk loans are predicted well. However there's a 1 in 10 chance that the model could be incorrect at predicting a high-risk loan, which could be frustrating for those potential borrowers.
+Overall this was a fairly accurate predictive model. The logistic regression classified the loans reasonably well. It would be a good model for predicting healthy loans. It would perform slightly worse for high-risk loans. With an f1 score of 89%, most high-risk loans are predicted well. However there's a 1 in 10 chance that the model could be incorrect at predicting a high-risk loan, which could be frustrating for those potential borrowers. The full credit risk analysis is in the final markdown cell of the `.ipynb` file.
 
 ## References
 
@@ -31,4 +31,6 @@ Class materials were used extensively for this assignment, as well as:
 
 ## Usage
 
-This `.ipynb` file should be easy to use. Hit `Run All` at the top of the file in VSCode and everything should run fine.
+The `.ipynb` file (`credit_risk_classification.ipynb`) contains a the credit risk analysis in the final markdown cell. This contains a detailed analysis of the results of this challenge.
+
+Otherwise this `.ipynb` file should be easy to use. Hit `Run All` at the top of the file in VSCode and everything should run fine.
